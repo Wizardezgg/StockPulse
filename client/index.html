@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StockPulse · Smart Inventory &amp; Business Management</title>
+    <link rel="icon" type="image/jpeg" href="/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'on-tertiary-container': '#ffd2be',
+              'on-secondary-fixed': '#141b2b',
+              'surface-container-lowest': '#ffffff',
+              'outline-variant': '#c7c4d8',
+              'on-surface': '#151c27',
+              'on-surface-variant': '#464555',
+              'tertiary-container': '#a44100',
+              'on-primary': '#ffffff',
+              'on-tertiary': '#ffffff',
+              tertiary: '#7e3000',
+              'on-tertiary-fixed-variant': '#7b2f00',
+              'surface-container-high': '#e2e8f8',
+              'secondary-fixed-dim': '#c0c6db',
+              'on-secondary-fixed-variant': '#404758',
+              error: '#ba1a1a',
+              'surface-container-highest': '#dce2f3',
+              'secondary-container': '#d9dff5',
+              'on-primary-container': '#dad7ff',
+              'on-secondary': '#ffffff',
+              'tertiary-fixed-dim': '#ffb695',
+              'surface-container': '#e7eefe',
+              surface: '#FAFAFA',
+              'surface-dim': '#d3daea',
+              'on-tertiary-fixed': '#351000',
+              'primary-fixed-dim': '#c3c0ff',
+              'surface-variant': '#dce2f3',
+              'inverse-primary': '#c3c0ff',
+              'surface-container-low': '#f4f6fb',
+              'surface-bright': '#ffffff',
+              primary: '#3525cd',
+              outline: '#777587',
+              'inverse-surface': '#2a313d',
+              'primary-fixed': '#eef0ff',
+              background: '#FAFAFA',
+              'inverse-on-surface': '#ebf1ff',
+              'on-primary-fixed-variant': '#3323cc',
+              'on-error': '#ffffff',
+              'on-secondary-container': '#5c6274',
+              'secondary-fixed': '#dce2f7',
+              'on-background': '#151c27',
+              'surface-tint': '#4d44e3',
+              'error-container': '#ffdad6',
+              'on-error-container': '#93000a',
+              secondary: '#575e70',
+              'on-primary-fixed': '#0f0069',
+              'primary-container': '#4f46e5',
+              'tertiary-fixed': '#ffdbcc'
+            },
+            fontFamily: {
+              sans: ['Geist', 'Inter', 'system-ui', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace']
+            }
+          }
+        }
+      };
+    </script>
+  </head>
+  <body class="bg-[#FAFAFA] text-[#151c27] antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

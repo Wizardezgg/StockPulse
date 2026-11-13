@@ -1,0 +1,18 @@
+body {
+  font-family: 'Geist', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #FAFAFA;
+  color: #151c27;
+  -webkit-font-smoothing: antialiased;
+}
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+.font-mono-data {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
