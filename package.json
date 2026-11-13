@@ -1,0 +1,13 @@
+{
+  "name": "stockpulse",
+  "version": "2.4.0",
+  "private": true,
+  "description": "StockPulse - MERN-Based Smart Inventory & Business Management System",
+  "scripts": {
+    "dev:server": "npm.cmd --prefix server run dev",
+    "dev:client": "npm.cmd --prefix client run dev",
+    "build:server": "npm.cmd --prefix server run build",
+    "build:client": "npm.cmd --prefix client run build",
+    "test:server": "npm.cmd --prefix server test"
+  }
+}
